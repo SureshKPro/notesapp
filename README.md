@@ -37,7 +37,16 @@ _A modern note-taking app for children and parents, with secure role-based featu
 ## Getting Started
 
 
+git clone https://github.com/SureshKPro/notesapp.git
+cd notesapp
 
+Backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+Frontend
+npm install
+npm start
 
 ---
 
